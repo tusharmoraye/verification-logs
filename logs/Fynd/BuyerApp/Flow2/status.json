@@ -1,0 +1,18 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "status",
+    "core_version": "1.1.0",
+    "bap_id": "ondc.fyndx5.de",
+    "bap_uri": "https://ondc.fyndx5.de/protocol/v1",
+    "transaction_id": "52c94cc8-5253-4656-bed6-4faa8e365c57",
+    "message_id": "c6ff1d64-3d99-4b0d-849a-9ff9e5367854",
+    "timestamp": "2023-07-11T10:43:52.051Z",
+    "ttl": "PT30S",
+    "bpp_id": "ondc.uat.medpay.in",
+    "bpp_uri": "https://ondc.uat.medpay.in/ecommerce/ondc"
+  },
+  "message": { "order_id": "f76af904-1cce-46a6-856c-3a697f2421c7" }
+}

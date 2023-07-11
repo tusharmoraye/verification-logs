@@ -1,0 +1,75 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "init",
+    "core_version": "1.1.0",
+    "bap_id": "ondc.fyndx5.de",
+    "bap_uri": "https://ondc.fyndx5.de/protocol/v1",
+    "transaction_id": "52c94cc8-5253-4656-bed6-4faa8e365c57",
+    "message_id": "3e82eae6-f7c1-4ec5-84d5-a38d4cb1571e",
+    "timestamp": "2023-07-11T10:42:37.423Z",
+    "ttl": "PT30S",
+    "bpp_id": "ondc.uat.medpay.in",
+    "bpp_uri": "https://ondc.uat.medpay.in/ecommerce/ondc"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "1001-3716-9032-6275",
+        "locations": [{ "id": "1002-4377-0770-0838" }]
+      },
+      "items": [
+        {
+          "id": "1002-4377-0770-0838_384348",
+          "quantity": { "count": 2.0 },
+          "fulfillment_id": "162361255802128239316932510713671104195"
+        },
+        {
+          "id": "1002-4377-0770-0838_384255",
+          "quantity": { "count": 1.0 },
+          "fulfillment_id": "162361255802128239316932510713671104195"
+        }
+      ],
+      "billing": {
+        "address": {
+          "name": "Tushar",
+          "building": "building",
+          "locality": "belavali",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "country": "IND",
+          "area_code": "560095"
+        },
+        "phone": "7507142150",
+        "name": "Tushar",
+        "email": "tusharmoraye@gofynd.com",
+        "created_at": "2023-07-11T10:42:37.423Z",
+        "updated_at": "2023-07-11T10:42:37.423Z"
+      },
+      "fulfillments": [
+        {
+          "id": "162361255802128239316932510713671104195",
+          "end": {
+            "contact": { "phone": "7507142150" },
+            "location": {
+              "gps": "12.936915,77.640726",
+              "address": {
+                "name": "Tushar",
+                "building": "building",
+                "locality": "belavali",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "IND",
+                "areaCode": "560095",
+                "area_code": "560095"
+              }
+            }
+          },
+          "type": "Delivery"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "on_search",
+    "core_version": "1.1.0",
+    "bap_id": "ondc.fyndx5.de",
+    "bap_uri": "https://ondc.fyndx5.de/protocol/v1",
+    "bpp_id": "ondc.uat.medpay.in",
+    "bpp_uri": "https://ondc.uat.medpay.in/ecommerce/ondc",
+    "transaction_id": "52c94cc8-5253-4656-bed6-4faa8e365c57",
+    "message_id": "18967b92-6455-4b32-a9cd-8c29c7c43f3d",
+    "timestamp": "2023-07-11T10:40:06.138Z"
+  },
+  "message": {
+    "catalog": {
+      "bpp/descriptor": {
+        "name": "Medpay - Vishal Medical Center",
+        "symbol": "https://uploads-ssl.webflow.com/6311c85afab5d25de4773cd3/631345cc00d7d6c64745e507_MedPay_Logo.svg",
+        "short_desc": "e-commerce",
+        "long_desc": "ondc e-commerce",
+        "images": [
+          "https://uploads-ssl.webflow.com/6311c85afab5d25de4773cd3/631345cc00d7d6c64745e507_MedPay_Logo.svg"
+        ]
+      },
+      "bpp/fulfillments": [
+        { "id": "1", "type": "Delivery" },
+        { "id": "2", "type": "Self-Pickup" },
+        { "id": "3", "type": "Delivery and Self-Pickup" }
+      ],
+      "bpp/providers": [
+        {
+          "id": "1001-3716-9032-6275",
+          "descriptor": {
+            "name": "Medpay - Vishal Medical Center",
+            "symbol": "https://uploads-ssl.webflow.com/6311c85afab5d25de4773cd3/631345cc00d7d6c64745e507_MedPay_Logo.svg",
+            "short_desc": "e-commerce",
+            "long_desc": "ondc e-commerce",
+            "images": [
+              "https://uploads-ssl.webflow.com/6311c85afab5d25de4773cd3/631345cc00d7d6c64745e507_MedPay_Logo.svg"
+            ]
+          },
+          "time": {
+            "label": "enable",
+            "timestamp": "2023-07-11T10:40:06.138Z"
+          },
+          "fulfillments": [
+            { "contact": { "phone": "8861545034", "email": "hello@medpay.in" } }
+          ],
+          "locations": [
+            {
+              "id": "1002-4377-0770-0838",
+              "gps": "12.933499,77.624855",
+              "address": {
+                "street": "B1-H6, Koramangala, Koramangala",
+                "locality": "B1-H6, Koramangala, Koramangala",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "area_code": "560095"
+              },
+              "circle": {
+                "gps": "12.933499,77.624855",
+                "radius": { "value": "5.0", "unit": "km" }
+              },
+              "time": {
+                "range": { "start": "0900", "end": "2200" },
+                "days": "1,2,3,4,5,6,7",
+                "schedule": { "holidays": [] }
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "1002-4377-0770-0838_384348",
+              "descriptor": {
+                "name": "pampers active baby diapers large",
+                "symbol": "https://images.medpay.in/_700/mp384348_1.webp",
+                "short_desc": "pampers active baby diapers large",
+                "long_desc": "pampers active baby diapers large",
+                "images": [
+                  "https://images.medpay.in/_700/mp384348_1.webp",
+                  "https://images.medpay.in/_700/mp384348_2.webp",
+                  "https://images.medpay.in/_700/mp384348_3.webp"
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "value": "449.0",
+                "maximum_value": "449.0"
+              },
+              "quantity": {
+                "available": { "count": "10" },
+                "maximum": { "count": "10" }
+              },
+              "category_id": "Personal and Baby Care",
+              "fulfillment_id": "1",
+              "location_id": "1002-4377-0770-0838",
+              "matched": true,
+              "recommended": false,
+              "@ondc/org/returnable": true,
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/return_window": "P3D",
+              "@ondc/org/cancellable": true,
+              "@ondc/org/time_to_ship": "P1D",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Arun,hello@medpay.in,8047189398"
+            },
+            {
+              "id": "1002-4377-0770-0838_384237",
+              "descriptor": {
+                "name": "pampers active baby diapers medium",
+                "symbol": "https://images.medpay.in/_700/mp384237_1.webp",
+                "short_desc": "pampers active baby diapers medium",
+                "long_desc": "pampers active baby diapers medium",
+                "images": [
+                  "https://images.medpay.in/_700/mp384237_1.webp",
+                  "https://images.medpay.in/_700/mp384237_2.webp",
+                  "https://images.medpay.in/_700/mp384237_3.webp"
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1175.0",
+                "maximum_value": "1175.0"
+              },
+              "quantity": {
+                "available": { "count": "10" },
+                "maximum": { "count": "10" }
+              },
+              "category_id": "Personal and Baby Care",
+              "fulfillment_id": "1",
+              "location_id": "1002-4377-0770-0838",
+              "matched": true,
+              "recommended": false,
+              "@ondc/org/returnable": true,
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/return_window": "P3D",
+              "@ondc/org/cancellable": true,
+              "@ondc/org/time_to_ship": "P1D",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Arun,hello@medpay.in,8047189398"
+            },
+            {
+              "id": "1002-4377-0770-0838_384255",
+              "descriptor": {
+                "name": "pampers active baby diapers small",
+                "symbol": "https://images.medpay.in/_700/mp384255_1.webp",
+                "short_desc": "pampers active baby diapers small",
+                "long_desc": "pampers active baby diapers small",
+                "images": [
+                  "https://images.medpay.in/_700/mp384255_1.webp",
+                  "https://images.medpay.in/_700/mp384255_2.webp"
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "value": "360.0",
+                "maximum_value": "360.0"
+              },
+              "quantity": {
+                "available": { "count": "10" },
+                "maximum": { "count": "10" }
+              },
+              "category_id": "Personal and Baby Care",
+              "fulfillment_id": "1",
+              "location_id": "1002-4377-0770-0838",
+              "matched": true,
+              "recommended": false,
+              "@ondc/org/returnable": true,
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/return_window": "P3D",
+              "@ondc/org/cancellable": true,
+              "@ondc/org/time_to_ship": "P1D",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Arun,hello@medpay.in,8047189398"
+            },
+            {
+              "id": "1002-4377-0770-0838_385775",
+              "descriptor": {
+                "name": "pampers active baby diapers xl",
+                "symbol": "https://medpaydocs.s3.ap-south-1.amazonaws.com/default_medicine_image.jpg",
+                "short_desc": "pampers active baby diapers xl",
+                "long_desc": "pampers active baby diapers xl",
+                "images": [
+                  "https://medpaydocs.s3.ap-south-1.amazonaws.com/default_medicine_image.jpg"
+                ]
+              },
+              "price": {
+                "currency": "INR",
+                "value": "1499.0",
+                "maximum_value": "1499.0"
+              },
+              "quantity": {
+                "available": { "count": "10" },
+                "maximum": { "count": "10" }
+              },
+              "category_id": "Personal and Baby Care",
+              "fulfillment_id": "1",
+              "location_id": "1002-4377-0770-0838",
+              "matched": true,
+              "recommended": false,
+              "@ondc/org/returnable": true,
+              "@ondc/org/seller_pickup_return": true,
+              "@ondc/org/return_window": "P3D",
+              "@ondc/org/cancellable": true,
+              "@ondc/org/time_to_ship": "P1D",
+              "@ondc/org/available_on_cod": false,
+              "@ondc/org/contact_details_consumer_care": "Arun,hello@medpay.in,8047189398"
+            }
+          ],
+          "ttl": "P1D",
+          "tags": [
+            {
+              "code": "serviceability",
+              "list": [
+                { "code": "location", "value": "1002-4377-0770-0838" },
+                { "code": "category", "value": "Personal and Baby Care" },
+                { "code": "type", "value": "10" },
+                { "code": "val", "value": "5" },
+                { "code": "unit", "value": "km" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

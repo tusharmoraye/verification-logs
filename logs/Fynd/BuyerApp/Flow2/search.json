@@ -1,0 +1,28 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "search",
+    "core_version": "1.1.0",
+    "bap_id": "ondc.fyndx5.de",
+    "bap_uri": "https://ondc.fyndx5.de/protocol/v1",
+    "transaction_id": "52c94cc8-5253-4656-bed6-4faa8e365c57",
+    "message_id": "18967b92-6455-4b32-a9cd-8c29c7c43f3d",
+    "timestamp": "2023-07-11T10:40:04.834Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "intent": {
+      "item": { "descriptor": { "name": "pampers" } },
+      "fulfillment": {
+        "type": "Delivery",
+        "end": { "location": { "gps": "12.936915,77.640726" } }
+      },
+      "payment": {
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "2"
+      }
+    }
+  }
+}

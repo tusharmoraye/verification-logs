@@ -1,0 +1,47 @@
+{
+  "context": {
+    "domain": "nic2004:52110",
+    "country": "IND",
+    "city": "std:080",
+    "action": "select",
+    "core_version": "1.1.0",
+    "bap_id": "ondc.fyndx5.de",
+    "bap_uri": "https://ondc.fyndx5.de/protocol/v1",
+    "transaction_id": "52c94cc8-5253-4656-bed6-4faa8e365c57",
+    "message_id": "0f0a3dd8-1ee3-41cc-b342-b7ce3fc0423c",
+    "timestamp": "2023-07-11T10:41:41.722Z",
+    "ttl": "PT30S",
+    "bpp_id": "ondc.uat.medpay.in",
+    "bpp_uri": "https://ondc.uat.medpay.in/ecommerce/ondc"
+  },
+  "message": {
+    "order": {
+      "items": [
+        {
+          "id": "1002-4377-0770-0838_384348",
+          "quantity": { "count": 2.0 },
+          "location_id": "1002-4377-0770-0838"
+        },
+        {
+          "id": "1002-4377-0770-0838_384255",
+          "quantity": { "count": 1.0 },
+          "location_id": "1002-4377-0770-0838"
+        }
+      ],
+      "provider": {
+        "id": "1001-3716-9032-6275",
+        "locations": [{ "id": "1002-4377-0770-0838" }]
+      },
+      "fulfillments": [
+        {
+          "end": {
+            "location": {
+              "gps": "19.059610,72.855298",
+              "address": { "area_code": "400051" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
